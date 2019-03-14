@@ -1,0 +1,95 @@
+<!DOCTYPE <!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Page Title</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" type="text/css" media="screen" href="main.css">
+    <script src="main.js"></script>
+</head>
+<body>
+    <div class="smallMenu">
+        <p class="smallMenu">OFFICIAL SHOP</p>
+        <p class="smallMenu">FREE SHIPPING ON ALL ORDERS ABOVE €84.90</p>
+        <p class="smallMenu">30 DAYS FREE RETURNS ON ALL ORDERS</p>
+    </div>
+
+<div class="main">
+    <div class="left1">
+        <img src="https://static.arenawaterinstinct.com/skin/frontend/arena/layout2015/images/layout/logo_arena_black.png" alt="logo arena" style="width:25%">
+    </div>
+    <div class="left2">
+        <ul class="main">
+          <li class="main1"><a href="#home">ABOUT US</a></li>
+          <li class="main1"><a href="home.html">BGR<i style="font-size:1vw" class="fa">&#xf0ac;</i></a></li>
+          <li class="main1"><a href="#contact">HELP<i class="fa fa-question-circle" style="font-size:1vw;color:black"></i></a></li>
+          <li class="main1"><a href="#about">About</a></li>
+        </ul>
+        <hr class="main">
+        <ul class="main">
+          <li class="main"><a href="#home">WOMEN</a></li>
+          <li class="main"><a href="#news">MEN</a></li>
+          <li class="main"><a href="#contact">JUNIOR</a></li>
+          <li class="main"><a href="#about">EQUIPMENT</a></li>
+          <li class="main"><a href="#about">TECHNOLOGIES</a></li>
+          <li class="main"><a class="main" href="#about">PROMO</a></li>
+        </ul>
+    </div>
+</div>
+<div class="slideshow-container">
+<div class="mySlides fade">
+    <img class="image1" src="https://static.arenawaterinstinct.com/media/arenahqimg/home_banner/20180424_TheOne/VT_TheOne_1600x450_EN.jpg" alt="">
+    <div class="top-left"><b>LET THE FUN BEGIN!<b></div>
+    <div class="top-left2"><b>NEW SPRING/SUMMER 2019 COLLECTION<b></div>
+      <a href="#"><div class="top-left3"><b>GIRL <b><i style="font-size:1vw" class="fa"><i class="strelka" class="fa">&#10145;</i></i></div></a>
+</div>
+<div class="mySlides fade">
+    <img class="image1" src="https://static.arenawaterinstinct.com/media/arenahqimg/home_banner/20190125_SS19/arena-ss2019-1600x450.jpg" alt="">
+    <div class="top-left"><b>TIME TO SHINE<b></div>
+    <div class="top-left2"><b>NEW SPRING/SUMMER 2019 COLLECTION<b></div>
+    <a href="#"><div class="top-left3"><b>WOMEN <b><i style="font-size:1vw" class="fa"><i class="strelka" class="fa">&#10145;</i></i></div></a>
+    <a href="#"><div class="top-left4"><b>MEN <b><i style="font-size:1vw" class="fa"><i class="strelka" class="fa">&#10145;</i></i></div></a>
+</div>
+<div class="mySlides fade">
+    <img class="image1" src="https://static.arenawaterinstinct.com/media/arenahqimg/home_banner/VT_triathlon_1600x450.jpg" alt="">
+    <div class="top-left"><b>LET THE SEA<b></div>
+    <div class="top-left2"><b>SET YOU FREE<b></div>
+    <a href="#"><div class="top-left3"><b>WOMEN <b><i style="font-size:1vw" class="fa"><i class="strelka" class="fa">&#10145;</i></i></div></a>
+    <a href="#"><div class="top-left4"><b>MEN <b><i style="font-size:1vw" class="fa"><i class="strelka" class="fa">&#10145;</i></i></div></a>
+</div>
+
+</div>
+<br>
+
+<div style="text-align:center">
+  <span class="dot" onclick="currentSlide(1)"></span> 
+  <span class="dot" onclick="currentSlide(2)"></span> 
+  <span class="dot" onclick="currentSlide(3)"></span> 
+</div>
+
+<script>
+    var slideIndex = 0;
+    showSlides();
+    
+    function showSlides() {
+      var i;
+      var slides = document.getElementsByClassName("mySlides");
+      var dots = document.getElementsByClassName("dot");
+      for (i = 0; i < slides.length; i++) {
+        slides[i].style.display = "none";  
+      }
+      slideIndex++;
+      if (slideIndex > slides.length) {slideIndex = 1}    
+      for (i = 0; i < dots.length; i++) {
+        dots[i].className = dots[i].className.replace(" active", "");
+      }
+      slides[slideIndex-1].style.display = "block";  
+      dots[slideIndex-1].className += " active";
+      setTimeout(showSlides, 4000); /* Change image every 4 seconds */
+    }
+    </script>
+
+</body>
+</html>
