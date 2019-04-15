@@ -5,6 +5,13 @@ body, html {
     -o-background-size: cover;
     background-size: cover;
   }
+  div.smallMenu{
+    background-color: black;
+    overflow:hidden;
+    color:white;
+    margin-top: -1%;
+    
+}
 .videoDivCenter{
   margin-left: 300px;
   margin-right: 100px;
@@ -24,62 +31,49 @@ body, html {
 .ulBottom{
   float: left;
   width: 30%;
-  padding-left: 10%;
+  margin-left: 1%;
 }
 .bottomMenu{
   overflow: hidden;
   margin-bottom: 0%;
-  margin-top: 5px;
+  margin-top: 10px;
   margin-left: auto;
   margin-right: auto;
   background-color: gray;
   opacity: 0.8;
 }
 
-.mainLi{
-  color: white;
-}
-li{
-  list-style: none;
-  padding-top: 2px; 
-}
-
 #ble{
-  font-size:1.5vw;
-  color:black
-}
-/* main */
-div.smallMenu{
-    background-color: black;
-    overflow:hidden;
-    color:white;
-    margin-top: -1%;
-    
+    font-size:20px;
+    color:black
+  }
+#blee{
+  font-size:20px;
 }
 p.smallMenu1{
     float: left;
-    width: 22%;
-    margin-left: 5%;
+    width: 32%;
+    padding-left:1%;
+    text-align: center;
 }
 p.smallMenu2{
   float: left;
-  width: 37%;
+  width: 60%;
+  text-align: right;
 }
 p.smallMenu3{
-  float: left;
-  width: 36%;
+    display: none;
 }
 div.main{
     margin-left: 15%;
     margin-right: 15%;
     overflow:hidden;
     background-color: white;
-    opacity: 0.8;
 }
 div.left1{
     float: left;
+    padding: 2%;
     width: 30%;
-    padding-left: 1%;
 }
 div.left2{
     margin-top: 3%;
@@ -98,8 +92,8 @@ li.main {
     text-transform: uppercase;
     font-weight: bold;
     width: max-content;
-    margin-right: 2%;
-    font-size: 1vw; 
+    margin-right: 1.5%;
+    font-size: 15px; 
 }
 li.main1 {
     float: left;
@@ -107,7 +101,8 @@ li.main1 {
     font-weight: bold;
     width: max-content;
     margin-right: 7%;
-    font-size: 25px; 
+    font-size: 25px;
+    width: 40%;
 }
 a.main{
     color:red;
@@ -127,7 +122,7 @@ li a {
 }
   
 li a:hover {
-    color: black;
+    color: gray;
     text-decoration: underline;
 }
 hr.main{
@@ -147,37 +142,19 @@ hr.main{
     color: white;
 }
 .top-left {
-    position: absolute;
-    top: 1vw;
-    left: 0.5vw;
-    margin-left:5%;
-    color: whitesmoke;
-    font-size: 1.5vw;
-    background-color: black;
-    padding-left: 0.3%;
-    padding-right: 0.3%;
-    
+    display: none;
 }
 .top-left2 {
-    position: absolute;
-    top: 4vw;
-    left: -1.25vw;
-    margin-left:4%;
-    color: whitesmoke;
-    font-size: 1.5vw;
-    background-color: black;
-    padding-left: 0.3%;
-    padding-right: 0.3%;
+    display: none;
 }
 .top-left3 {
-    position: absolute;
-    top: 9vw;
-    left: 1.5vw;
-    margin-left:3%;
-    color: seashell;
-    font-size: 1vw;
-    background-color: rgb(10, 157, 179);
-    padding: 0.5% 0.5% 0.5% 0.5%; 
+  position: absolute;
+  top: 4vw;
+  left: 2vw;
+  color: seashell;
+  font-size: 20px;
+  background-color: rgb(10, 157, 179);
+  padding: 0.5% 0.5% 0.5% 0.5%; 
 }
 .top-left3:hover{
   -moz-transform: rotate(360deg) translate(-4px, 0px);
@@ -187,16 +164,15 @@ hr.main{
 transform: rotate(360deg) translate(-4px, 0px);
 }
 .top-left4 {
-    position: absolute;
-    top: 12vw;
-    left: 1.5vw;
-    margin-left:3%;
-    color: seashell;
-    font-size: 1vw;
-    background-color: rgb(10, 157, 179);
-    padding: 0.5% 0.5% 0.5% 0.5%; 
+  position: absolute;
+  top: 9vw;
+  left: 2vw;
+  color: seashell;
+  font-size: 20px;
+  background-color: rgb(10, 157, 179);
+  padding: 0.5% 0.5% 0.5% 0.5%; 
 }
-.top-left4:hover{
+.top-left4:hover{    
   -moz-transform: rotate(360deg) translate(-4px, 0px);
 -webkit-transform: rotate(360deg) translate(-4px, 0px);
 -o-transform: rotate(360deg) translate(-4px, 0px);
