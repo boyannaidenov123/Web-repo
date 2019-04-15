@@ -1,0 +1,287 @@
+body, html {
+    background: url("https://wallpaperplay.com/walls/full/1/9/1/107685.jpg") no-repeat center center fixed; 
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+  }
+.videoDivCenter{
+  margin-left: 300px;
+  margin-right: 100px;
+}
+.videoClip{
+  margin: auto auto 10% auto;
+  padding-top: 1%;
+  text-align: center;
+
+}
+.firstVideo{
+  
+}
+.imatikonki{
+  text-align: center;
+}
+.ulBottom{
+  float: left;
+  width: 30%;
+  padding-left: 10%;
+}
+.bottomMenu{
+  overflow: hidden;
+  margin-bottom: 0%;
+  margin-top: 5px;
+  margin-left: auto;
+  margin-right: auto;
+  background-color: gray;
+  opacity: 0.8;
+}
+
+.mainLi{
+  color: white;
+}
+li{
+  list-style: none;
+  padding-top: 2px; 
+}
+
+#ble{
+  font-size:1.5vw;
+  color:black
+}
+/* main */
+div.smallMenu{
+    background-color: black;
+    overflow:hidden;
+    color:white;
+    margin-top: -1%;
+    
+}
+p.smallMenu1{
+    float: left;
+    width: 22%;
+    margin-left: 5%;
+}
+p.smallMenu2{
+  float: left;
+  width: 37%;
+}
+p.smallMenu3{
+  float: left;
+  width: 36%;
+}
+div.main{
+    margin-left: 15%;
+    margin-right: 15%;
+    overflow:hidden;
+    background-color: white;
+    opacity: 0.8;
+}
+div.left1{
+    float: left;
+    width: 30%;
+    padding-left: 1%;
+}
+div.left2{
+    margin-top: 3%;
+    margin-left: 10%;
+}
+
+ul.main {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+  }
+  
+li.main {
+    float: left;
+    text-transform: uppercase;
+    font-weight: bold;
+    width: max-content;
+    margin-right: 2%;
+    font-size: 1vw; 
+}
+li.main1 {
+    float: left;
+    text-transform: uppercase;
+    font-weight: bold;
+    width: max-content;
+    margin-right: 7%;
+    font-size: 25px; 
+}
+a.main{
+    color:red;
+}
+a.main:hover{
+    color: maroon;
+    text-decoration: underline;
+}
+a{
+    text-decoration: none;
+}
+  
+li a {
+    display: inline-block;
+    color: black;
+    text-decoration: none;
+}
+  
+li a:hover {
+    color: black;
+    text-decoration: underline;
+}
+hr.main{
+    margin-left: -15%;
+    border-color:rgb(0, 142, 255);
+}
+.vl {
+    text-align: center;
+    border-left: 1px solid black;
+    height: 3%;
+}
+.container {
+    position: relative;
+    width: 100%;
+    text-align: center;
+    margin-top: 1%; 
+    color: white;
+}
+.top-left {
+    position: absolute;
+    top: 1vw;
+    left: 0.5vw;
+    margin-left:5%;
+    color: whitesmoke;
+    font-size: 1.5vw;
+    background-color: black;
+    padding-left: 0.3%;
+    padding-right: 0.3%;
+    
+}
+.top-left2 {
+    position: absolute;
+    top: 4vw;
+    left: -1.25vw;
+    margin-left:4%;
+    color: whitesmoke;
+    font-size: 1.5vw;
+    background-color: black;
+    padding-left: 0.3%;
+    padding-right: 0.3%;
+}
+.top-left3 {
+    position: absolute;
+    top: 9vw;
+    left: 1.5vw;
+    margin-left:3%;
+    color: seashell;
+    font-size: 1vw;
+    background-color: rgb(10, 157, 179);
+    padding: 0.5% 0.5% 0.5% 0.5%; 
+}
+.top-left3:hover{
+  -moz-transform: rotate(360deg) translate(-4px, 0px);
+-webkit-transform: rotate(360deg) translate(-4px, 0px);
+-o-transform: rotate(360deg) translate(-4px, 0px);
+-ms-transform: rotate(360deg) translate(-4px, 0px);
+transform: rotate(360deg) translate(-4px, 0px);
+}
+.top-left4 {
+    position: absolute;
+    top: 12vw;
+    left: 1.5vw;
+    margin-left:3%;
+    color: seashell;
+    font-size: 1vw;
+    background-color: rgb(10, 157, 179);
+    padding: 0.5% 0.5% 0.5% 0.5%; 
+}
+.top-left4:hover{
+  -moz-transform: rotate(360deg) translate(-4px, 0px);
+-webkit-transform: rotate(360deg) translate(-4px, 0px);
+-o-transform: rotate(360deg) translate(-4px, 0px);
+-ms-transform: rotate(360deg) translate(-4px, 0px);
+transform: rotate(360deg) translate(-4px, 0px);
+}
+
+.strelka{
+    font-size: 1vw;
+    color: black;
+}
+* {box-sizing: border-box}
+
+.mySlides {display: none}
+img {vertical-align: middle;}
+
+/* Slideshow container */
+.slideshow-container {
+  width: 100%;
+  position: relative;
+  margin: auto;
+  vertical-align: middle;
+}
+
+/* Next & previous buttons */
+.prev, .next {
+  cursor: pointer;
+  position: absolute;
+  top: 50%;
+  width: auto;
+  padding: 16px;
+  margin-top: -22px;
+  color: white;
+  font-weight: bold;
+  font-size: 18px;
+  transition: 0.6s ease;
+  border-radius: 0 3px 3px 0;
+  user-select: none;
+}
+
+/* Position the "next button" to the right */
+.next {
+  right: 0;
+  border-radius: 3px 0 0 3px;
+}
+
+/* On hover, add a black background color with a little bit see-through */
+.prev:hover, .next:hover {
+  background-color: rgba(0,0,0,0.8);
+}
+
+
+/* The dots/bullets/indicators */
+.dot {
+  cursor: pointer;
+  height: 15px;
+  width: 15px;
+  margin: 0 2px;
+  background-color: #bbb;
+  border-radius: 50%;
+  display: inline-block;
+  transition: background-color 0.6s ease;
+}
+
+.active, .dot:hover {
+  background-color: #717171;
+}
+
+/* Fading animation */
+.fade {
+  -webkit-animation-name: fade;
+  -webkit-animation-duration: 1.5s;
+  animation-name: fade;
+  animation-duration: 1.5s;
+}
+
+@-webkit-keyframes fade {
+  from {opacity: .4} 
+  to {opacity: 1}
+}
+
+@keyframes fade {
+  from {opacity: .4} 
+  to {opacity: 1}
+}
+.image1{
+    width: 100%;
+}
