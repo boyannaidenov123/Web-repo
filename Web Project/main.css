@@ -15,10 +15,11 @@ body, html {
   text-align: center;
 
 }
+
 .firstVideo{
   
 }
-.imatikonki{
+.imotikonki{
   text-align: center;
 }
 .ulBottom{
@@ -284,4 +285,15 @@ img {vertical-align: middle;}
 }
 .image1{
     width: 100%;
+}
+
+.bottomLicense{
+  margin-bottom: 0%;
+  margin-left: auto;
+  margin-right: auto;
+  overflow: hidden;
+  background-color: rgb(112,128,144);
+  text-align: center;
+  padding-top: 0.7%;
+  padding-bottom: 0.5%; 
 }

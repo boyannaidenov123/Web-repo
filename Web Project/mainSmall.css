@@ -25,22 +25,30 @@ body, html {
 .firstVideo{
   
 }
-.imatikonki{
+.imotikonki{
   text-align: center;
 }
 .ulBottom{
   float: left;
   width: 30%;
-  margin-left: 1%;
+  padding-left: 10%;
 }
 .bottomMenu{
   overflow: hidden;
   margin-bottom: 0%;
-  margin-top: 10px;
+  margin-top: 5px;
   margin-left: auto;
   margin-right: auto;
   background-color: gray;
   opacity: 0.8;
+}
+
+.mainLi{
+  color: white;
+}
+li{
+  list-style: none;
+  padding-top: 2px; 
 }
 
 #ble{
@@ -260,4 +268,14 @@ img {vertical-align: middle;}
 }
 .image1{
     width: 100%;
+}
+.bottomLicense{
+  margin-bottom: 0%;
+  margin-left: auto;
+  margin-right: auto;
+  overflow: hidden;
+  background-color: rgb(112,128,144);
+  text-align: center;
+  padding-top: 0.7%;
+  padding-bottom: 0.5%; 
 }
