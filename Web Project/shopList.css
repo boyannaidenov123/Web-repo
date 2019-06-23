@@ -1,0 +1,133 @@
+body, html {
+    background: url("https://wallpaperplay.com/walls/full/1/9/1/107685.jpg") no-repeat center center fixed; 
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+  }
+.shopList{
+    margin-left: 30%;
+    width: 40%;
+    background-color: white;
+    height: 10%;
+    border: 5px double #1C6EA4;
+border-radius: 24px;
+    text-align: center;
+}
+
+
+
+
+.ulBottom{
+    float: left;
+    width: 30%;
+    padding-left: 10%;
+    }
+    .bottomMenu{
+    overflow: hidden;
+    margin-bottom: 0%;
+    margin-top: 5px;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: gray;
+    opacity: 0.8;
+    }
+    
+    .mainLi{
+    color: white;
+    }
+    li{
+    list-style: none;
+    padding-top: 2px; 
+    }
+    
+    #ble{
+    font-size:1.5vw;
+    color:black
+    }
+    /* main */
+    div.smallMenu{
+      background-color: black;
+      overflow:hidden;
+      color:white;
+      margin-top: -1%;
+      
+    }
+    p.smallMenu1{
+      float: left;
+      width: 22%;
+      margin-left: 5%;
+    }
+    p.smallMenu2{
+    float: left;
+    width: 37%;
+    }
+    p.smallMenu3{
+    float: left;
+    width: 36%;
+    }
+    div.main{
+      margin-left: 15%;
+      margin-right: 15%;
+      overflow:hidden;
+      background-color: white;
+      opacity: 0.8;
+    }
+    div.left1{
+      float: left;
+      width: 30%;
+      padding-left: 1%;
+    }
+    div.left2{
+      margin-top: 3%;
+      margin-left: 10%;
+    }
+    
+    ul.main {
+      list-style-type: none;
+      margin: 0;
+      padding: 0;
+      overflow: hidden;
+    }
+    
+    li.main {
+      float: left;
+      text-transform: uppercase;
+      font-weight: bold;
+      width: max-content;
+      margin-right: 2%;
+      font-size: 1.3vw; 
+    }
+    li.main1 {
+      float: left;
+      text-transform: uppercase;
+      font-weight: bold;
+      width: max-content;
+      margin-right: 7%;
+      font-size: 25px; 
+    }
+    a.main{
+      color:red;
+    }
+    a.main:hover{
+      color: maroon;
+      text-decoration: underline;
+    }
+    a{
+      text-decoration: none;
+    }
+    
+    li a {
+      display: inline-block;
+      color: black;
+      text-decoration: none;
+    }
+    
+    li a:hover {
+      color: black;
+      text-decoration: underline;
+    }
+    hr.main{
+      margin-left: -15%;
+      border-color:rgb(0, 142, 255);
+    }
