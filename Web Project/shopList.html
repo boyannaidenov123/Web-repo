@@ -30,7 +30,7 @@
                     </ul>
                     <hr class="main">
                     <ul class="main">
-                        <li class="main"><a href="main.html">HOME</a></li>
+                        <li class="main"><a href="women.html">WOMEN</a></li>
                         <li class="main"><a href="men.html">MEN</a></li>
                         <li class="main"><a href="junior.html">JUNIOR</a></li>
                         <li class="main"><a href="equipment.html">EQUIPMENT</a></li>
@@ -41,21 +41,34 @@
             </div>
 
     <div class="shopList">
-        <div>
-            
-                <li>snimka</li>
-                <li>ime</li>
-                <li>price</li>
-                
-        </div>
-        <hr>
-        <div>
-            <p>snimka</p>
-            <p>ime</p>
-            <p>cena</p>
-        </div>
-        <hr>
+
     </div>
+    <button class="pay">Pay</button>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.0/jquery.min.js"></script>
+    <script>
+        console.log(sessionStorage.length);
+        function setShopList(name, price, image){
+            return '<div>' +
+                '<li><img src="https://'+image+'" style="width:30%"></li>'+
+                '<li>'+ name +'</li>' +
+                '<li>'+ price +'</li>' +
+                '</div>' +
+                '<hr>';
+        }
+        if(sessionStorage.length == 0){
+            $(".shopList").append("<br>DONT HAVE ANYTHING<br><br>GO AND SHOP");
+            $(".pay").css("display", "none");
+        }
+        for (var i = 0; i < sessionStorage.length; i++) {
+            var retrievedObject = sessionStorage.getItem(i);
+            var item = JSON.parse(retrievedObject);
+            $(".shopList").append(setShopList(item.name, item.price, item.image));
+
+            //console.log('retrievedObject: ', JSON.parse(retrievedObject));
+        }
+
+    </script>
     
 </body>
 </html>
