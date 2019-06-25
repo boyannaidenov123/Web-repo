@@ -279,9 +279,9 @@
         function buy(name, price, image){
             //sessionStorage.clear();
             console.log(sessionStorage.length);
-
+            var len = sessionStorage.length;
             var testObject = { 'name': name, 'price': price, 'image':image};
-            sessionStorage.setItem(sessionStorage.length, JSON.stringify(testObject));
+            sessionStorage.setItem(len, JSON.stringify(testObject));
             /*for (var i = 0; i < sessionStorage.length; i++){
                 var retrievedObject = sessionStorage.getItem(i);
                 console.log('retrievedObject: ', JSON.parse(retrievedObject));

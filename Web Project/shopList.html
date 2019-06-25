@@ -48,11 +48,18 @@
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.0/jquery.min.js"></script>
     <script>
         console.log(sessionStorage.length);
-        function setShopList(name, price, image){
-            return '<div>' +
+
+        function deleteElement(count){
+            sessionStorage.removeItem(count);
+            location.reload();
+        }
+
+        function setShopList(name, price, image, count){
+            return '<div id='+ count +'>' +
                 '<li><img src="https://'+image+'" style="width:30%"></li>'+
                 '<li>'+ name +'</li>' +
                 '<li>'+ price +'</li>' +
+                '<li><button onclick="deleteElement('+ count +');">Delete</button></li>' +
                 '</div>' +
                 '<hr>';
         }
@@ -63,7 +70,7 @@
         for (var i = 0; i < sessionStorage.length; i++) {
             var retrievedObject = sessionStorage.getItem(i);
             var item = JSON.parse(retrievedObject);
-            $(".shopList").append(setShopList(item.name, item.price, item.image));
+            $(".shopList").append(setShopList(item.name, item.price, item.image, i));
 
             //console.log('retrievedObject: ', JSON.parse(retrievedObject));
         }
